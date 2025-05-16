@@ -13,7 +13,7 @@ void setup() {
 
 // 繰り返し実行される
 void loop() {
-    Serial.println(count); // Hello, World! と出力
-    count += 1;            // count を 1 ずつ増やす
-    delay(1000);           // 1000ミリ秒(1秒)待機
+    Serial.printf("count : %d\n", count); // Hello, World! と出力
+    count += 1;                           // count を 1 ずつ増やす
+    delay(1000);                          // 1000ミリ秒(1秒)待機
 }
